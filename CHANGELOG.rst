@@ -9,6 +9,7 @@ This document describes changes between each past release.
 **Internal changes**
 
 - Remove pypy supports. (#1049)
+- Remove Python 2.7 support. (#1050)
 
 
 5.3.1 (2017-01-30)
