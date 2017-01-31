@@ -6,7 +6,7 @@ This document describes changes between each past release.
 6.0.0 (unreleased)
 ------------------
 
-**Internal changes**
+**Breaking changes**
 
 - Remove pypy supports. (#1049)
 - Remove Python 2.7 support. (#1050)
