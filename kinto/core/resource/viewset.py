@@ -242,9 +242,7 @@ class ShareableViewSet(ViewSet):
         return payload_schema
 
     def get_view_arguments(self, endpoint_type, resource_cls, method):
-        args = super().get_view_arguments(endpoint_type,
-                                                                resource_cls,
-                                                                method)
+        args = super().get_view_arguments(endpoint_type, resource_cls, method)
         args['permission'] = authorization.DYNAMIC
         return args
 
