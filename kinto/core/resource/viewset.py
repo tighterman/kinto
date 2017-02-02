@@ -32,7 +32,7 @@ class SimpleSchema(colander.MappingSchema):
         return colander.Mapping(unknown='preserve')
 
 
-class ViewSet(object):
+class ViewSet:
     """The default ViewSet object.
 
     A viewset contains all the information needed to register
